@@ -7,10 +7,8 @@ const Task = () => {
     <div className='todoItem'>
         <div className='fp'>
             <div className='checkDiv'>
-            
                 <input type="checkbox" id='cbx'/>
                 <label htmlFor="cbx"></label>
-            
             </div>
             <div className="infos">
                 <p className="taskDescription">
@@ -27,8 +25,6 @@ const Task = () => {
                 <span class="material-symbols-outlined">edit</span>
             </button>
         </div>
-        
-        
     </div>
   )
 }
