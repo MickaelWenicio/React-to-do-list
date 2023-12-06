@@ -1,0 +1,39 @@
+.checkDiv label {
+    position: relative;
+    top: .4em;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    border: none;
+    background-color: #d2d2da;
+}
+
+.checkDiv label::after{
+    content: '';
+    position:absolute;
+    top: 4px;
+    left: 8px;
+    width: 5px;
+    height: 10px;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    opacity: 0;
+    transition: all 0.2s ease;
+    transition-delay: 0.10s;
+    transform: rotate(45deg) scale(0);
+}
+
+#cbx:checked ~ label {
+    background-color: #646FF0;
+}
+
+#cbx:checked ~ label::after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+}
+
+#cbx {
+    display: none;
+}

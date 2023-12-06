@@ -1,0 +1,50 @@
+.todoItem{
+    width: 90%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkdiv{
+    display: flex;
+}
+
+.taskDescription{
+    font-size: .9em;
+    color: #646681;
+    font-weight: bold;
+}
+
+.time{
+    font-size: .8em;
+    color: #6c6d7a;
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    padding-left: .5em;
+}
+
+.fp{
+    display: flex;
+}
+
+.sp {
+    width: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.material-symbols-outlined{
+    color: #4c4c57;
+    cursor: pointer;
+}
+
+.sp button{
+    border: none;
+}
+

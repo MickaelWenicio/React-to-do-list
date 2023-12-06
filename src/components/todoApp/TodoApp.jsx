@@ -1,5 +1,6 @@
 import React from 'react'
 import './TodoApp.css'
+import Task from '../tasks/Task'
 
 const TodoApp = () => {
   return (
@@ -16,6 +17,9 @@ const TodoApp = () => {
               <option value="incomplete">Incomplete</option>
             </select>
           </div>       
+        </div>
+        <div className="tasks">
+          <Task/>
         </div>
         
     </div>
